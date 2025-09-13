@@ -1,0 +1,125 @@
+.chatbox {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 350px;
+    height: 450px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+    background-color: #fff;
+    transition: height 0.3s ease;
+}
+
+.chatbox-header {
+    background-color: #000044;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chatbox-header .header-content {
+    display: flex;
+    align-items: center;
+}
+
+.chatbox-header .status-dot {
+    width: 10px;
+    height: 10px;
+    background-color: #000044;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.chatbox-header h4 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.minimize-button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.chatbox-content {
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 40px);
+    transition: height 0.3s ease;
+}
+
+.chatbox-content .messages {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    background-color: #f1f1f1;
+}
+
+.chatbox-content .reply-box {
+    display: flex;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.chatbox-content .reply-box input[type="text"] {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #000044;
+    border-radius: 5px;
+}
+
+.chatbox-content .reply-box button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #000044;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.chatbox.minimized {
+    height: 40px;
+}
+
+.message {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 90%;
+    word-wrap: break-word;
+    position: relative;
+    display: inline-block;
+}
+
+.message .message-text {
+    display: block;
+    color: #f1f1f1;
+}
+
+.message .message-time {
+    display: block;
+    font-size: 0.8em;
+    color: #f1f1f1;
+    margin-top: 5px;
+    text-align: right;
+}
+
+.message.received {
+    background-color: #000044;
+    align-self: flex-start;
+    margin-right: auto;
+}
+
+.message.sent {
+    background-color: lightskyblue;
+    align-self: flex-end;
+    margin-left: auto;
+    text-align: right;
+}

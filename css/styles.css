@@ -1,0 +1,126 @@
+
+.form-group {
+	margin: 10px 2px;
+}
+
+.form-control {
+	margin: 3px 0px;
+	padding: 5px;
+	border: none;
+	width: 200px;
+	border-radius: 3px;
+	box-shadow: 0 0 3px #fff;
+	color: #CC9900;
+	display: block;
+	outline: none;
+}
+
+.reg-square {
+	margin: 20px 10px;
+}
+
+.login-square {
+	margin: 20px 150px;
+}
+
+
+
+
+.about {
+	text-align: justify;
+}
+
+.contact {
+	text-align: justify;
+}
+
+.feedback {
+	text-align: justify;
+}
+
+
+
+.company-info {
+	bottom: 50px;
+	Left: 15px;
+
+}
+
+.company-info>h2 {}
+
+
+
+.contact {
+	padding: 20px 40px;
+	;
+
+}
+
+.contact h4 {
+	font-variant: small-caps;
+	font-size: 24px;
+}
+
+.contact-square {
+
+	height: 400px;
+}
+
+.contact-square fieldset {
+	margin-top: 20px;
+	font-variant: small-caps;
+	font-size: 20px;
+}
+
+.contact tr {
+	font-size: 16px;
+}
+
+.contact input {
+	width: 200px;
+	height: 20px;
+	border-radius: 5px;
+	box-shadow: 5px;
+}
+
+.contact select {
+	width: 205px;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+.contact textarea {
+	width: 400px;
+	height: 100px;
+	border-radius: 5px;
+}
+
+.contact tr {
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.contact button {
+	padding: 10px;
+	border-radius: 5px;
+	color: white;
+	background-color:#CC9900;
+}
+
+.about-content {
+	padding: 10px 20px;
+}
+
+.td-content {
+
+	padding: 20px 10px 20px 20px;
+}
+
+.about-title {
+	font-size: 25px;
+	font-variant: small-caps;
+}
+
+.about-content img {
+	width: 150px;
+}

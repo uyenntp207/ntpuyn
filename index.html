@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>12 CUNG HOÀNG ĐẠO</title>
+    <link href="css/index.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="css/chatbox.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="top-right">
+                <ul>
+                    <li><a href="login.html">Đăng Nhập</a></li>
+                    <li><a href="register.html">Đăng Ký</a></li>
+                    <li><a href="forgetPassword.html">Quên Mật Khẩu</a></li>
+                </ul>
+            </div>
+        </header>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Trang chủ</a></li>
+                <li>
+                    <a href="maps.html" target="page">Liên hệ</a>
+                    <ul>
+                        <li><a href="#">Mobile</a></li>
+                        <li><a href="#">Email</a></li>
+                    </ul>
+
+                </li>
+                <li><a href="">Góp ý</a></li>
+                <li><a href="../Final_CungHoangDao/hoidap.html" target="page" >Hỏi đáp</a></li>
+            </ul>
+        </nav>
+        <article>
+            <iframe name="page" src="about.html" scrolling="auto" frameborder="0"></iframe>
+        </article>
+        <aside>
+            <ul class="vmenu">
+                <li class="maket"><a href="content/maket.html" target="page"> Cung Ma Kết</a></li>
+                <li class="baobinh"><a href="content/baobinh.html" target="page"> Cung Bảo Bình</a></li>
+                <li class="songngu"><a href="content/songngu.html" target="page"> Cung Song Ngư </a></li>
+                <li class="bachduong"><a href="content/bachduong.html" target="page"> Cung Bạch Dương </a></li>
+                <li class="kimnguu"><a href="content/kimnguu.html" target="page"> Cung Kim Ngưu </a></li>
+                <li class="songtu"><a href="content/songtu.html" target="page"> Cung Song Tử </a></li>
+                <li class="cugiai"><a href="content/cugiai.html" target="page"> Cung Cự Giải </a></li>
+                <li class="sutu"><a href="content/sutu.html" target="page"> Cung Sư Tử </a></li>
+                <li class="xunu"><a href="content/xunu.html" target="page"> Cung Xử Nữ</a></li>
+                <li class="thienbinh"><a href="content/thienbinh.html" target="page"> Cung Thiên Bình </a></li>
+                <li class="bocap"><a href="content/bocap.html" target="page"> Cung Bọ Cạp </a></li>
+                <li class="nhanma"><a href="content/nhanma.html" target="page"> Cung Nhân Mã </a></li>
+            </ul>
+        </aside>
+        <footer>
+            12 Cung Hoang Dao &copy; 2023. All rights reserved.
+        </footer>
+    </div>
+
+    <div class="chatbox" id="chatbox">
+        <div class="chatbox-header">
+            <div class="header-content">
+                <span class="status-dot"></span>
+                <h4>Chat với chúng tôi</h4>
+            </div>
+            <button class="minimize-button" onclick="toggleChatbox()">−</button>
+        </div>
+        <div class="chatbox-content" id="chatboxContent">
+            <div class="messages">
+                <div class="message received">
+                    <span class="message-text">Xin chào! Chúng tôi có thể giúp gì cho bạn?</span>
+                    <span class="message-time">10:30 AM</span>
+                </div>
+            </div>
+            <div class="reply-box">
+                <input type="text" id="replyInput" placeholder="Nhập tin nhắn...">
+                <button onclick="sendMessage()">Gửi</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/chatbox.js"></script>
+    <script src="js/index.js"></script>
+
+</body>
+
+</html>

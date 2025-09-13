@@ -1,0 +1,279 @@
+body{
+	text-align: left;
+	padding: 0;
+	margin: 0;
+	background-image: url(../images/banner.jpg);
+	background-attachment: fixed;
+}
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+	Position: relative;
+}
+
+.container > header {
+	background-image: url(../images/poster.jpg);
+	background-size: 100% 100%;
+	height: 140px;
+	padding-bottom: 25%;
+}
+
+.container>nav {
+	text-align: center;
+	font-variant: small-caps;
+	color: white;
+	background-color: #000044;
+	line-height: 40px;
+}
+
+.container>article {
+	width: 75%;
+	float: left;
+	background-color: #FFF;
+	height: 475px;
+}
+
+.container>aside {
+	width: 25%;
+	float: right;
+	background-color: white;
+	height: 475px;
+}
+
+.container>footer {
+	clear: both;
+	line-height: 50px;
+	background-color:#000044;
+	text-align: center;
+	color: #fff;
+	font-variant: small-caps;
+	border-top: 5px double #000044;
+}
+
+.container>nav>a {
+	text-decoration: none;
+	margin: 0 10px;
+	color: white;
+}
+
+.container>nav>a:hover {
+	color: #FF0;
+	text-decoration: underline;
+}
+
+iframe[name=page] {
+	width: 100%;
+	min-height: 475px;
+}
+
+.vmenu {
+	padding: 0;
+	margin: 5px;
+	list-style: none;
+	border-radius: 3px;
+	box-shadow: 0 0 2px #808080;
+	background-color: #fff;
+}
+
+.vmenu a {
+    margin-left: 10px;
+	display: block;
+	border-bottom: 1px dotted orangered;
+	color: #CC9900;
+	font-variant: small-caps;
+	font-size: larger;
+	text-decoration: none;
+	padding: 8px 5px 8px 35px;
+}
+
+/* copy đổi .maket */
+.vmenu .maket{
+	background: url("../images/maket.png") no-repeat 10px center;
+    background-size: 32px 32px;
+}
+
+.vmenu .baobinh{
+	background: url("../images/baobinh.png") no-repeat 10px center;
+    background-size: 32px 32px;
+}
+
+.vmenu .songngu{
+	background: url("../images/songngu.png") no-repeat 10px center;
+    background-size: 32px 32px;
+}
+
+.vmenu .songtu{
+	background: url("../images/songtu.png") no-repeat 10px center;
+    background-size: 32px 32px;
+}
+
+.vmenu .cugiai{
+	background: url("../images/cugiai.png") no-repeat 10px center;
+    background-size: 32px 32px;
+}
+
+.vmenu .bachduong{
+	background: url("../images/bachduong.png") no-repeat 10px center;
+    background-size: 32px 32px;
+}
+
+.vmenu .kimnguu{
+	background: url("../images/kimnguu.png") no-repeat 10px center;
+    background-size: 32px 32px;
+}
+
+.vmenu .xunu{
+	background: url("../images/xunu.png") no-repeat 10px center;
+    background-size: 32px 32px;
+}
+
+.vmenu .sutu{
+	background: url("../images/sutu.png") no-repeat 10px center;
+    background-size: 32px 32px;
+}
+
+.vmenu .thienbinh{
+	background: url("../images/thienbinh.png") no-repeat 10px center;
+    background-size: 32px 32px;
+}
+
+.vmenu .bocap{
+	background: url("../images/bocap.png") no-repeat 10px center;
+    background-size: 32px 32px;
+}
+
+.vmenu .nhanma{
+	background: url("../images/nhanma.png") no-repeat 10px center;
+    background-size: 32px 32px;
+}
+
+.vmenu a:hover {
+	border-bottom: 1px dotted #FFF;
+	background-color: #000044;
+	color: #FFF;
+	font-weight: bold;
+}
+
+.top-right {
+	Position: absolute;
+	Top: 0;
+	Right: 0;
+	Border-bottom-left-radius: 30px;
+	background-color: #000044;
+	box-shadow: 0px 0px 20px #FFF;
+
+}
+
+.top-right>ul>li {
+	list-style-type: none;
+	text-align: center;
+	display: inline;
+
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.top-right>ul>li>a {
+	text-decoration: none;
+	color: #FFF;
+	line-height: 20px;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.top-right>ul>li>a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+
+h2 {
+	position: absolute;
+	top: 120px;
+	left: 25px;
+	width: 100%;
+	color: #FFF;
+	font-size: 40px;
+	font-weight: bold;
+	text-shadow: 0px 0px 5px #FF6600;
+
+}
+
+h3 {
+	position: absolute;
+	top: 185px;
+	left: 25px;
+	width: 100%;
+	color: #FF4500;
+	font-size: 15px;
+	font-weight: bold;
+	text-shadow: 0px 0px 5px #FF6600;
+}
+
+
+.menu>ul>li {
+	display: inline-block;
+	position: relative;
+}
+
+.menu>ul>li>a {
+	display: block;
+}
+
+.menu>ul {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	border-radius: 3px;
+	text-align: center;
+	background-color: #000044	;
+}
+
+.menu>ul>li>a {
+	text-decoration: none;
+	font-variant: small-caps;
+	font-size: larger;
+	color: #FFF;
+	padding: 10px;
+	line-height: 40px;
+}
+
+.menu>ul>li>a:hover {
+	color: #CC9900;
+}
+
+.menu ul ul {
+	position: absolute;
+	display: none;
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	border-radius: 3px;
+	width: 200px;
+	background-color: #FFF;
+	box-shadow: 0px 0px 3px #808080;
+}
+
+.menu ul ul a {
+	display: block;
+	line-height: 30px;
+	color: #000044;
+	text-decoration: none;
+	font-variant: small-caps;
+	font-size: larger;
+	padding: 0 10px;
+
+}
+
+.menu>ul>li:hover>ul {
+	display: block;
+}
+
+.menu>ul>li:hover>ul {
+	display: block;
+}
+
+.menu ul ul a:hover {
+	background-color: #000044;
+	color: #FFF;
+}
+
